@@ -8,7 +8,7 @@ def main():
 
     sensor = bme680.BME680()
 
-    database = "C:\\sqlite\db\sensordata.db"
+    database = "~/sensordata.db"
 
     # create a database connection
     conn = create_connection(database)
