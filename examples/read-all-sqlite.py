@@ -64,6 +64,7 @@ def main():
 
                 with conn:
                     task_id = create_entry(conn, reading)
+                    print(task_id)
 
             time.sleep(30)
 
