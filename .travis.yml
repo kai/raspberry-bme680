@@ -2,9 +2,11 @@ language: python
 python:
   - "2.7"
 # command to install dependencies
-install:
+# install:
 #  - pip install -r requirements.txt
-  - pip install pytest
+#  - pip install pytest
 # command to run tests
+# script:
+#  - pytest # or py.test for Python versions 3.5 and below
 script:
-  - pytest # or py.test for Python versions 3.5 and below
+  - python test.py
