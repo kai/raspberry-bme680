@@ -1,3 +1,5 @@
+[![Build status](https://travis-ci.org/kai/raspberry-bme680.svg?master)](https://travis-ci.org/kai)
+
 # BME680
 
 https://shop.pimoroni.com/products/bme680
